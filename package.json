@@ -19,6 +19,7 @@
     "src",
     "docs",
     "README.md",
+    "README.zh-TW.md",
     "components.json"
   ],
   "scripts": {
