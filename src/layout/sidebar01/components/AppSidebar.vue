@@ -60,8 +60,8 @@
 </template>
 
 <script setup lang="ts">
-import type { SidebarProps } from '#/components/ui/sidebar'
-import type { AppSidebarProps } from '#/layout/sidebar01/types'
+import type { SidebarProps } from '../../../components/ui/sidebar'
+import type { AppSidebarProps } from '../types'
 
 import {
   Sidebar,
@@ -77,9 +77,9 @@ import {
   SidebarFooter,
   SidebarRail,
   useSidebar,
-} from '#/components/ui/sidebar'
+} from '../../../components/ui/sidebar'
 
-import NavUser from "#/layout/sidebar01/components/NavUser.vue"
+import NavUser from "./NavUser.vue"
 import { watch, computed } from 'vue'
 
 const props = withDefaults(defineProps<AppSidebarProps & {

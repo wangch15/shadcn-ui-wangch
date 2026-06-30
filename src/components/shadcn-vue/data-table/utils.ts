@@ -1,7 +1,7 @@
 // components/data-table/utils.ts
 import { h } from 'vue'
 import type { ColumnDef } from '@tanstack/vue-table'
-import { Checkbox } from '#/components/ui/checkbox'
+import { Checkbox } from '../../ui/checkbox'
 import type { FilterFn, SortingFn } from '@tanstack/vue-table'
 
 // 簡化的模糊過濾函數（不依賴外部庫）

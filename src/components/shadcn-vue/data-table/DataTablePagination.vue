@@ -1,8 +1,8 @@
 <!-- components/data-table/DataTablePagination.vue -->
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
-import { Button } from '#/components/ui/button'
-import { Select, SelectTrigger, SelectContent, SelectValue, SelectItem } from '#/components/ui/select'
+import { Button } from '../../ui/button'
+import { Select, SelectTrigger, SelectContent, SelectValue, SelectItem } from '../../ui/select'
 import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight } from 'lucide-vue-next'
 
 defineProps<{ table: Table<any> }>()

@@ -66,8 +66,8 @@
 <script setup lang="ts">
 import { ref, computed, h, watch } from 'vue'
 import { DataTable, type ColumnDef } from './index'
-import { Button } from '#/components/ui/button'
-import { Badge } from '#/components/ui/badge'
+import { Button } from '../../ui/button'
+import { Badge } from '../../ui/badge'
 import {
   Plus,
   Users,

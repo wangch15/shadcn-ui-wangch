@@ -11,7 +11,7 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
 import { useColorMode } from '@vueuse/core'
-import { Button } from '#/components/ui/button'
+import { Button } from '../../../components/ui/button'
 
 // Pass { disableTransition: false } to enable transitions
 const mode = useColorMode()

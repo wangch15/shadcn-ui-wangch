@@ -34,14 +34,14 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { Table } from '@tanstack/vue-table'
-import { Button } from '#/components/ui/button'
-import { Input } from '#/components/ui/input'
+import { Button } from '../../ui/button'
+import { Input } from '../../ui/input'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
   PopoverCheckboxItem,
-} from '#/components/ui/popover'
+} from '../../ui/popover'
 import { Columns } from 'lucide-vue-next'
 import DataTableFacetedFilter from './DataTableFacetedFilter.vue'
 

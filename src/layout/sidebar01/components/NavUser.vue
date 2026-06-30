@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import type { NavUserProps } from '#/layout/sidebar01/types'
+import type { NavUserProps } from '../types'
 
 import {
   ChevronsUpDown,
@@ -57,7 +57,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "#/components/ui/avatar"
+} from "../../../components/ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -65,13 +65,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "#/components/ui/dropdown-menu"
+} from "../../../components/ui/dropdown-menu"
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "#/components/ui/sidebar"
+} from "../../../components/ui/sidebar"
 
 defineProps<NavUserProps>()
 

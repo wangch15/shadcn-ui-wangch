@@ -6,7 +6,7 @@ import type { ColumnDef } from './types'
 import { useDataTable } from './useDataTable'
 import { createSelectColumn } from './utils'
 
-import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from '#/components/ui/table'
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from '../../ui/table'
 import DataTableToolbar from './DataTableToolbar.vue'
 import DataTablePagination from './DataTablePagination.vue'
 

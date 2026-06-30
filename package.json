@@ -6,9 +6,6 @@
   "main": "./src/lib/index.ts",
   "module": "./src/lib/index.ts",
   "types": "./src/lib/index.ts",
-  "imports": {
-    "#/*": "./src/*"
-  },
   "exports": {
     ".": {
       "import": {

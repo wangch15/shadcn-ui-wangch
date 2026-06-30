@@ -2,14 +2,14 @@
 <script setup lang="ts">
 import type { Table } from '@tanstack/vue-table'
 import { computed } from 'vue'
-import { Button } from '#/components/ui/button'
+import { Button } from '../../ui/button'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
   PopoverCheckboxItem,
-} from '#/components/ui/popover'
-import { Separator } from '#/components/ui/separator'
+} from '../../ui/popover'
+import { Separator } from '../../ui/separator'
 
 type Props = {
   table: Table<any>

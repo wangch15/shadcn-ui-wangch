@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { HTMLAttributes } from "vue"
 // import { Check } from "lucide-vue-next"
-import { Checkbox } from "#/components/ui/checkbox"
-import { cn } from "#/lib/utils"
+import { Checkbox } from "../checkbox"
+import { cn } from "../../../lib/utils"
 
 interface Props {
     modelValue?: boolean

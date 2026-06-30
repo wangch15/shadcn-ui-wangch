@@ -49,21 +49,21 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import AppSidebar from "#/layout/sidebar01/components/AppSidebar.vue"
+import AppSidebar from "./components/AppSidebar.vue"
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "#/components/ui/sidebar"
+} from "../../components/ui/sidebar"
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "#/components/ui/breadcrumb"
-import { Separator } from "#/components/ui/separator"
-import ThemeButton from "#/layout/sidebar01/components/ThemeButton.vue"
+} from "../../components/ui/breadcrumb"
+import { Separator } from "../../components/ui/separator"
+import ThemeButton from "./components/ThemeButton.vue"
 import type {
   SidebarBreadcrumbItem,
   NavigationMainItem,
